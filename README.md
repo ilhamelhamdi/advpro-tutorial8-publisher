@@ -16,3 +16,6 @@ program, what does it mean?
 
 4. Publisher mengirim messages ke RabbitMQ. Subscriber membaca messages dari RabbitMQ
     ![Publishing & Reading message](./assets/images/rabbitmq-console-running.png)
+
+5. Terjadi lonjakan pada grafik _connection chart_ karena publisher telah melakukan run beberapa kali
+    ![Spikes in RabbitMQ's connection chart](./assets/images/rabbitmq-connection-spikes.png)

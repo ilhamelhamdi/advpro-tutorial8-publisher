@@ -9,3 +9,5 @@ Kelas : Advance Programming A <br>
 
 2. The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber
 program, what does it mean?
+    Kedua url sama saja karena keduanya mengirim request ke server rabbitMQ. Hanya saja, publisher mengirim pesan ke queue sementara subscriber akan mendapatkan data dari queue.
+
